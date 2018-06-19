@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +14,8 @@
     "barcli": "0.0.11",
     "color-temp": "0.0.2",
     "johnny-five": "^0.8.76",
-    "keypress": "^0.2.1"
-  }
+    "keypress": "^0.2.1",
+    "snyk": "^1.83.0"
+  },
+  "snyk": true
 }
