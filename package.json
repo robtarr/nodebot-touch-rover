@@ -11,7 +11,7 @@
   "dependencies": {
     "barcli": "0.0.11",
     "color-temp": "0.0.2",
-    "johnny-five": "^0.8.76",
+    "johnny-five": "^0.9.1",
     "keypress": "^0.2.1"
   }
 }
